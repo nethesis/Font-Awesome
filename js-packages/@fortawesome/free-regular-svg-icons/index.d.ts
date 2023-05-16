@@ -45,6 +45,7 @@ export const faPenToSquare: IconDefinition;
 export const faEdit: IconDefinition;
 export const faHourglassHalf: IconDefinition;
 export const faHourglass2: IconDefinition;
+export const faEdoTest: IconDefinition;
 export const faEyeSlash: IconDefinition;
 export const faHand: IconDefinition;
 export const faHandPaper: IconDefinition;
