@@ -1,0 +1,57 @@
+{
+    "description": "The iconic font, CSS, and SVG framework",
+    "keywords": [
+        "font",
+        "awesome",
+        "fontawesome",
+        "icon",
+        "svg",
+        "bootstrap",
+        "nethesis"
+    ],
+    "homepage": "https://fontawesome.com",
+    "bugs": {
+        "url": "https://github.com/nethesis/Font-Awesome/issues"
+    },
+    "author": "The Nethesis Team (https://github.com/orgs/nethesis/people)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nethesis/Font-Awesome"
+      },
+    "engines": {
+        "node": ">=6"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-common-types": "6.4.0"
+    },
+    "version": "6.4.0",
+    "name": "@nethesis/nethesis-light-svg-icons",
+    "main": "index.js",
+    "module": "index.mjs",
+    "jsnext:main": "index.mjs",
+    "license": "(CC-BY-4.0 AND MIT)",
+    "types": "./index.d.ts",
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "import": "./index.mjs",
+            "require": "./index.js",
+            "default": "./index.js"
+        },
+        "./index": {
+            "import": "./index.mjs",
+            "require": "./index.js",
+            "default": "./index.js"
+        },
+        "./index.js": {
+            "import": "./index.mjs",
+            "require": "./index.js",
+            "default": "./index.js"
+        },
+        "./package.json": "./package.json",
+        "./*": "./*.js"
+    },
+    "scripts": {
+        "postinstall": "node attribution.js"
+    }
+}
