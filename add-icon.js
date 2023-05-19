@@ -34,7 +34,27 @@ var obj = {
   svgString: svgString.join(""),
 };
 
-// create fa<IconName>.d.ts file
+// append new icon to icons
+var iconsFile = require("./icons.json");
+iconsFile.icons.push({
+  id: "fa" + obj.camelName,
+  prefix: "fal",
+  iconName: obj.kebabName,
+  icon: [24, 24, [], "f590", obj.svgString],
+});
+fs.writeFileSync(__dirname + "/icons.json", JSON.stringify(iconsFile, null, 2));
+
+// get current icons as objec
+var iconsList = JSON.parse(JSON.stringify(iconsFile));
+for (var i in iconsList.icons) {
+  var icon = iconsList.icons[i];
+  icon.icon = JSON.stringify(icon.icon);
+}
+
+// define obj for template
+obj.icons = iconsList.icons;
+
+// create new fa<IconName>.d.ts file
 fs.readFile(
   __dirname + "/add-icon-templates/faIcon.d.ts",
   function (err, data) {
@@ -45,7 +65,7 @@ fs.readFile(
   }
 );
 
-// create fa<IconName>.js file
+// create new fa<IconName>.js file
 fs.readFile(__dirname + "/add-icon-templates/faIcon.js", function (err, data) {
   if (err) throw err;
   var output = mustache.render(data.toString(), obj);
@@ -53,8 +73,26 @@ fs.readFile(__dirname + "/add-icon-templates/faIcon.js", function (err, data) {
   fs.writeFileSync(__dirname + "/fa" + obj.camelName + ".js", output);
 });
 
-// append new definition
-fs.appendFileSync(
-  __dirname + "/index.d.ts",
-  "\nexport const fa" + obj.camelName + ": IconDefinition;"
-);
+// create new index.d.ts
+fs.readFile(__dirname + "/add-icon-templates/index.d.ts", function (err, data) {
+    if (err) throw err;
+    var output = mustache.render(data.toString(), obj);
+  
+    fs.writeFileSync(__dirname + "/index.d.ts", output);
+  });
+
+// create new index.js
+fs.readFile(__dirname + "/add-icon-templates/index.js", function (err, data) {
+  if (err) throw err;
+  var output = mustache.render(data.toString(), obj);
+
+  fs.writeFileSync(__dirname + "/index.js", output);
+});
+
+// create new index.mjs
+fs.readFile(__dirname + "/add-icon-templates/index.mjs", function (err, data) {
+  if (err) throw err;
+  var output = mustache.render(data.toString(), obj);
+
+  fs.writeFileSync(__dirname + "/index.mjs", output);
+});

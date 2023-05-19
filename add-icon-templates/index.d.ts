@@ -3,7 +3,6 @@ export { IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@for
 export const prefix: IconPrefix;
 export const fal: IconPack;
 
-export const faHeadset: IconDefinition;
-export const faAddressBook: IconDefinition;
-export const faMessage: IconDefinition;
-export const faHeadsetOutline: IconDefinition;
+{{#icons}}
+export const {{id}}: IconDefinition;
+{{/icons}}
