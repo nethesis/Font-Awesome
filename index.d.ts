@@ -3,7 +3,10 @@ export { IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@for
 export const prefix: IconPrefix;
 export const fal: IconPack;
 
-export const faHeadset: IconDefinition;
 export const faAddressBook: IconDefinition;
+export const faChartLine: IconDefinition;
+export const faClockRotateLeft: IconDefinition;
+export const faGrid2: IconDefinition;
+export const faHeadset: IconDefinition;
 export const faMessage: IconDefinition;
-export const faHeadsetOutline: IconDefinition;
+export const faUsers: IconDefinition;
