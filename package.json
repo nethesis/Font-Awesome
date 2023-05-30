@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "extract-svg-path": "^2.1.0",
+    "image-size": "^1.0.2",
     "lodash": "^4.17.21",
     "mustache": "^4.2.0",
     "parse-svg-path": "^0.1.2"
