@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-common-types": "6.2.1"
   },
   "version": "6.2.1",
-  "name": "@nethesis/nethesis-light-svg-icons",
+  "name": "@nethesis/nethesis-solid-svg-icons",
   "main": "index.js",
   "module": "index.mjs",
   "jsnext:main": "index.mjs",

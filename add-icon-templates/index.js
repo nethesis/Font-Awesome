@@ -8,15 +8,15 @@
     ? factory(exports)
     : typeof define === "function" && define.amd
     ? define(["exports"], factory)
-    : factory((global["nethesis-light-svg-icons"] = {}));
+    : factory((global["nethesis-solid-svg-icons"] = {}));
 })(this, function (exports) {
   "use strict";
 
-  var prefix = "fal";
+  var prefix = "fas";
 
 {{#icons}}
   var {{id}} = {
-      prefix: "fal",
+      prefix: "fas",
       iconName: "{{iconName}}",
       icon: {{{icon}}},
   };
@@ -28,7 +28,7 @@
     {{/icons}}
   };
 
-  exports.fal = icons;
+  exports.fas = icons;
   exports.prefix = prefix;
 
   {{#icons}}
