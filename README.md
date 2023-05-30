@@ -4,7 +4,7 @@ This is a collection of Nethesis icons in the `light` set, based on FontAwesome.
 ## Install
 To install this set execute:
 ```bash
-npm i --save https://github.com/nethesis/Font-Awesome#light
+npm i --save https://github.com/nethesis/Font-Awesome#ns-light
 ```
 
 ## Use
