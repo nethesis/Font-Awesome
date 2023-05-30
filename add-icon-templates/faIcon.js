@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var prefix = "fal";
 var iconName = "{{kebabName}}";
-var width = 24;
-var height = 24;
+var width = {{width}};
+var height = {{height}};
 var aliases = [];
 var unicode = "";
 var svgPathData = "{{svgString}}";

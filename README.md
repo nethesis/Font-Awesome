@@ -15,7 +15,6 @@ import { faHeadset } from '@nethesis/nethesis-light-svg-icons'
 
 ## Add new icon
 To add a new icon to the set follow the steps below:
-- make you sure you have a valid SVG in `24x24` size
 - name the file in kebab-case, for example: `headset-name.svg`
 - execute this command:
   ```bash
