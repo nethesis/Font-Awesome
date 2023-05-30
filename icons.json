@@ -2,7 +2,7 @@
   "icons": [
     {
       "id": "faGrid2",
-      "prefix": "fal",
+      "prefix": "fas",
       "iconName": "grid-2",
       "icon": [
         24,
