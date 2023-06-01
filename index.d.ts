@@ -4,3 +4,6 @@ export const prefix: IconPrefix;
 export const fas: IconPack;
 
 export const faGrid2: IconDefinition;
+export const faMissed: IconDefinition;
+export const faEarListen: IconDefinition;
+export const faCameraSecurity: IconDefinition;
