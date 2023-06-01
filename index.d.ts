@@ -3,7 +3,7 @@ export { IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@for
 export const prefix: IconPrefix;
 export const fas: IconPack;
 
+export const faCameraSecurity: IconDefinition;
+export const faEarListen: IconDefinition;
 export const faGrid2: IconDefinition;
 export const faMissed: IconDefinition;
-export const faEarListen: IconDefinition;
-export const faCameraSecurity: IconDefinition;
