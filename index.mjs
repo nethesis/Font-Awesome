@@ -25,6 +25,11 @@ var faMissed = {
     iconName: "missed",
     icon: [24,24,[],"f590","m23.6 5.9c0.5 0.6 0.5 1.6 0 2.2l-10.5 10.5c-0.6 0.5 -1.5 0.5 -2.1 0l-8 -7.6v3.5c0 0.8 -0.7 1.5 -1.5 1.5c-0.8 0 -1.5 -0.7 -1.5 -1.5v-7c0 -0.8 0.7 -1.5 1.5 -1.5h6.5c0.8 0 1.5 0.7 1.5 1.5c0 0.8 -0.7 1.5 -1.5 1.5h-2.8l6.8 6.4l9.4 -9.5c0.6 -0.5 1.6 -0.5 2.2 0z"],
 };
+var faGrid2 = {
+    prefix: "fas",
+    iconName: "grid-2",
+    icon: [24,24,[],"f590","m4.5 2.5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm0 11c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm9 -5c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2h-4c-1.1 0 -2 0.9 -2 2zm2 5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2z"],
+};
 
 var icons = {
     faBlockBrickFire: faBlockBrickFire,
@@ -32,6 +37,7 @@ var icons = {
     faEarListen: faEarListen,
     faEmptySet: faEmptySet,
     faMissed: faMissed,
+    faGrid2: faGrid2,
 };
 
 export {
@@ -42,4 +48,5 @@ export {
     faEarListen,
     faEmptySet,
     faMissed,
+    faGrid2,
 };

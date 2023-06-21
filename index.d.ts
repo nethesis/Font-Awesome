@@ -8,3 +8,4 @@ export const faCameraSecurity: IconDefinition;
 export const faEarListen: IconDefinition;
 export const faEmptySet: IconDefinition;
 export const faMissed: IconDefinition;
+export const faGrid2: IconDefinition;
