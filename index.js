@@ -34,15 +34,25 @@
       iconName: "empty-set",
       icon: [24,24,[],"f590","m0.4 2.6c-0.5 -0.6 -0.5 -1.6 0 -2.2c0.6 -0.5 1.6 -0.5 2.2 0l3.1 3.2c1.8 -1.3 3.9 -2.1 6.3 -2.1c5.8 0 10.5 4.7 10.5 10.5c0 2.4 -0.8 4.5 -2.1 6.3l3.2 3.1c0.5 0.6 0.5 1.6 0 2.2c-0.6 0.5 -1.6 0.5 -2.2 0l-3.1 -3.2c-1.8 1.3 -3.9 2.1 -6.3 2.1c-5.8 0 -10.5 -4.7 -10.5 -10.5c0 -2.4 0.8 -4.5 2.1 -6.3zm5.3 5.3c-0.8 1.2 -1.2 2.6 -1.2 4.2c0 4.1 3.3 7.5 7.5 7.5c1.5 0 2.9 -0.5 4.1 -1.3zm12.5 8.3c0.8 -1.2 1.2 -2.6 1.2 -4.2c0 -4.1 -3.3 -7.5 -7.5 -7.5c-1.5 0 -2.9 0.5 -4.1 1.3z"],
   };
+  var faGrid2 = {
+      prefix: "fas",
+      iconName: "grid-2",
+      icon: [24,24,[],"f590","m4.5 2.5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm0 11c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm9 -5c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2h-4c-1.1 0 -2 0.9 -2 2zm2 5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2z"],
+  };
+  var faGridRound = {
+      prefix: "fas",
+      iconName: "grid-round",
+      icon: [24,24,[],"f590","m1.5 4.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm0 7.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm4.5 -12c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm-3 10.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm10.5 -18c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm-3 10.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3z"],
+  };
   var faMissed = {
       prefix: "fas",
       iconName: "missed",
       icon: [24,24,[],"f590","m23.6 5.9c0.5 0.6 0.5 1.6 0 2.2l-10.5 10.5c-0.6 0.5 -1.5 0.5 -2.1 0l-8 -7.6v3.5c0 0.8 -0.7 1.5 -1.5 1.5c-0.8 0 -1.5 -0.7 -1.5 -1.5v-7c0 -0.8 0.7 -1.5 1.5 -1.5h6.5c0.8 0 1.5 0.7 1.5 1.5c0 0.8 -0.7 1.5 -1.5 1.5h-2.8l6.8 6.4l9.4 -9.5c0.6 -0.5 1.6 -0.5 2.2 0z"],
   };
-  var faGrid2 = {
+  var faTrafficCone = {
       prefix: "fas",
-      iconName: "grid-2",
-      icon: [24,24,[],"f590","m4.5 2.5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm0 11c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2zm9 -5c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2h-4c-1.1 0 -2 0.9 -2 2zm2 5c-1.1 0 -2 0.9 -2 2v4c0 1.1 0.9 2 2 2h4c1.1 0 2 -0.9 2 -2v-4c0 -1.1 -0.9 -2 -2 -2z"],
+      iconName: "traffic-cone",
+      icon: [24,24,[],"f590","m7 9h10l2 5h-14zm-3 7.5h16l2 4.5h-20zm6 -15.5c0.5 -1 1 -1 2 -1c1 0 1.5 0 2 1c0.5 1 2 5 2 5h-8c0 0 1.5 -4 2 -5zm-9 20c0.5 0 21.5 0 22 0c0.5 0 1 0.8 1 1.5c0 0.7 -0.5 1.5 -1 1.5c-0.5 0 -21.4 0 -22 0c-0.6 0 -1 -0.8 -1 -1.5c0 -0.7 0.5 -1.5 1 -1.5z"],
   };
 
   var icons = {
@@ -50,8 +60,10 @@
     faCameraSecurity: faCameraSecurity,
     faEarListen: faEarListen,
     faEmptySet: faEmptySet,
-    faMissed: faMissed,
     faGrid2: faGrid2,
+    faGridRound: faGridRound,
+    faMissed: faMissed,
+    faTrafficCone: faTrafficCone,
   };
 
   exports.fas = icons;
@@ -61,8 +73,10 @@
   exports.faCameraSecurity = faCameraSecurity;
   exports.faEarListen = faEarListen;
   exports.faEmptySet = faEmptySet;
-  exports.faMissed = faMissed;
   exports.faGrid2 = faGrid2;
+  exports.faGridRound = faGridRound;
+  exports.faMissed = faMissed;
+  exports.faTrafficCone = faTrafficCone;
 
   Object.defineProperty(exports, "__esModule", { value: true });
 });
