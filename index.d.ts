@@ -11,4 +11,5 @@ export const faEmptySet: IconDefinition;
 export const faGrid2: IconDefinition;
 export const faGridRound: IconDefinition;
 export const faMissed: IconDefinition;
+export const faNordVpn: IconDefinition;
 export const faTrafficCone: IconDefinition;
