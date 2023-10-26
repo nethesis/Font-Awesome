@@ -1,6 +1,6 @@
 import { IconDefinition, IconPrefix, IconName } from "@fortawesome/fontawesome-common-types";
 export const definition: IconDefinition;
-export const faMissed: IconDefinition;
+export const faNetflix: IconDefinition;
 export const prefix: IconPrefix;
 export const iconName: IconName;
 export const width: number;

@@ -1,16 +1,16 @@
-# FontAwesome - Nethesis Set - Solid
-This is a collection of Nethesis icons in the `solid` set, based on FontAwesome.
+# FontAwesome - Nethesis Set - Brands
+This is a collection of Nethesis icons in the `brands` set, based on FontAwesome.
 
 ## Install
 To install this set execute:
 ```bash
-npm i --save https://github.com/nethesis/Font-Awesome#ns-solid
+npm i --save https://github.com/nethesis/Font-Awesome#ns-brands
 ```
 
 ## Use
 To use the installed icons import the icon as a npm module:
 ```javascript
-import { faHeadset } from '@nethesis/nethesis-solid-svg-icons'
+import { faHeadset } from '@nethesis/nethesis-brands-svg-icons'
 ```
 
 ## Add new icon
@@ -22,6 +22,6 @@ To add a new icon to the set follow the steps below:
   ```
 - commit using this message and naming the icon using `fa` prefix: 
   ```bash
-  git commit -m "solid set. added new icon: faHeadsetName"
+  git commit -m "brands set. added new icon: faHeadsetName"
   ```
 

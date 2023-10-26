@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var prefix = "fas";
-var iconName = "missed";
-var width = 24;
+var prefix = "fab";
+var iconName = "square-x-twitter";
+var width = 21;
 var height = 24;
 var aliases = [];
 var unicode = "";
-var svgPathData = "m23.6 5.9c0.5 0.6 0.5 1.6 0 2.2l-10.5 10.5c-0.6 0.5 -1.5 0.5 -2.1 0l-8 -7.6v3.5c0 0.8 -0.7 1.5 -1.5 1.5c-0.8 0 -1.5 -0.7 -1.5 -1.5v-7c0 -0.8 0.7 -1.5 1.5 -1.5h6.5c0.8 0 1.5 0.7 1.5 1.5c0 0.8 -0.7 1.5 -1.5 1.5h-2.8l6.8 6.4l9.4 -9.5c0.6 -0.5 1.6 -0.5 2.2 0z";
+var svgPathData = "m18 1.5c1.7 0 3 1.3 3 3v15c0 1.7 -1.3 3 -3 3h-15c-1.7 0 -3 -1.3 -3 -3v-15c0 -1.7 1.3 -3 3 -3zm-3.3 3.9l-3.7 4.2l-3.1 -4.2h-4.6l5.5 7.2l-5.2 6h2.2l4 -4.6l3.5 4.6h4.5l-5.7 -7.6l4.8 -5.6zm-0.8 11.8l-8 -10.5h1.3l8 10.5z";
 
 exports.definition = {
   prefix: prefix,
@@ -19,7 +19,7 @@ exports.definition = {
     svgPathData
   ]};
 
-exports.faMissed = exports.definition;
+exports.faSquareXTwitter = exports.definition;
 exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;

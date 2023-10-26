@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var prefix = "fas";
+var prefix = "fab";
 var iconName = "{{kebabName}}";
 var width = {{width}};
 var height = {{height}};

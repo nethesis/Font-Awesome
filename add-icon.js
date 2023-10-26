@@ -44,7 +44,7 @@ var obj = {
 var iconsFile = require("./icons.json");
 iconsFile.icons.push({
   id: "fa" + obj.camelName,
-  prefix: "fas",
+  prefix: "fab",
   iconName: obj.kebabName,
   icon: [obj.width, obj.height, [], "f590", obj.svgString],
 });

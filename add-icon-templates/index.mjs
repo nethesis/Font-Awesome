@@ -1,8 +1,8 @@
-var prefix = "fas";
+var prefix = "fab";
 
 {{#icons}}
 var {{id}} = {
-    prefix: "fas",
+    prefix: "fab",
     iconName: "{{iconName}}",
     icon: {{{icon}}},
 };
@@ -15,7 +15,7 @@ var icons = {
 };
 
 export {
-    icons as fas,
+    icons as fab,
     prefix,
     {{#icons}}
     {{id}},
