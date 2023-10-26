@@ -21,10 +21,10 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "6.4.0"
+    "@fortawesome/fontawesome-common-types": "6.4.2"
   },
-  "version": "6.4.0",
-  "name": "@fortawesome/free-solid-svg-icons",
+  "version": "6.4.2",
+  "name": "@fortawesome/free-brands-svg-icons",
   "main": "index.js",
   "module": "index.mjs",
   "jsnext:main": "index.mjs",
@@ -33,16 +33,19 @@
   "sideEffects": false,
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
