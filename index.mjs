@@ -40,10 +40,10 @@ var faMissed = {
     iconName: "missed",
     icon: [24,24,[],"f590","m23.6 5.9c0.5 0.6 0.5 1.6 0 2.2l-10.5 10.5c-0.6 0.5 -1.5 0.5 -2.1 0l-8 -7.6v3.5c0 0.8 -0.7 1.5 -1.5 1.5c-0.8 0 -1.5 -0.7 -1.5 -1.5v-7c0 -0.8 0.7 -1.5 1.5 -1.5h6.5c0.8 0 1.5 0.7 1.5 1.5c0 0.8 -0.7 1.5 -1.5 1.5h-2.8l6.8 6.4l9.4 -9.5c0.6 -0.5 1.6 -0.5 2.2 0z"],
 };
-var faNordVpn = {
+var faOfficePhone = {
     prefix: "fas",
-    iconName: "nord-vpn",
-    icon: [24,24,[],"f590","m21.6 21.2c1.5 -2 2.4 -4.5 2.4 -7.2c0 -6.6 -5.4 -12 -12 -12c-6.6 0 -12 5.4 -12 12c0 2.7 0.9 5.2 2.4 7.1l5.6 -8.6l2 3l-0.5 -2.5l2.5 -4l4 6.5l-0.5 -2.5l0.5 -1z"],
+    iconName: "office-phone",
+    icon: [24,24,[],"f590","m6 5v14c0 1.1 -0.9 2 -2 2c-1.1 0 -2 -0.9 -2 -2v-14c0 -1.1 0.9 -2 2 -2c1.1 0 2 0.9 2 2zm2 0c0 -1.1 0.9 -2 2 -2h10c1.1 0 2 0.9 2 2v14c0 1.1 -0.9 2 -2 2h-10c-1.1 0 -2 -0.9 -2 -2zm2 4c0 0.6 0.4 1 1 1h8c0.6 0 1 -0.4 1 -1v-3c0 -0.6 -0.4 -1 -1 -1h-8c-0.6 0 -1 0.4 -1 1zm0.5 4c-0.3 0 -0.5 0.2 -0.5 0.5c0 0.3 0.2 0.5 0.5 0.5h4c0.3 0 0.5 -0.2 0.5 -0.5c0 -0.3 -0.2 -0.5 -0.5 -0.5zm0 5h4c0.3 0 0.5 -0.2 0.5 -0.5c0 -0.3 -0.2 -0.5 -0.5 -0.5h-4c-0.3 0 -0.5 0.2 -0.5 0.5c0 0.3 0.2 0.5 0.5 0.5zm7.5 -6c-0.6 0 -1 0.4 -1 1v1c0 0.6 0.4 1 1 1h1c0.6 0 1 -0.4 1 -1v-1c0 -0.6 -0.4 -1 -1 -1zm-1 6c0 0.6 0.4 1 1 1h1c0.6 0 1 -0.4 1 -1v-1c0 -0.6 -0.4 -1 -1 -1h-1c-0.6 0 -1 0.4 -1 1z"],
 };
 var faTrafficCone = {
     prefix: "fas",
@@ -60,7 +60,7 @@ var icons = {
     faGrid2: faGrid2,
     faGridRound: faGridRound,
     faMissed: faMissed,
-    faNordVpn: faNordVpn,
+    faOfficePhone: faOfficePhone,
     faTrafficCone: faTrafficCone,
 };
 
@@ -75,6 +75,6 @@ export {
     faGrid2,
     faGridRound,
     faMissed,
-    faNordVpn,
+    faOfficePhone,
     faTrafficCone,
 };
