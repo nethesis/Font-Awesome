@@ -3,6 +3,7 @@ export { IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@for
 export const prefix: IconPrefix;
 export const fab: IconPack;
 
+export const faGravatar: IconDefinition;
 export const faNetflix: IconDefinition;
 export const faNordVpn: IconDefinition;
 export const faSquareXTwitter: IconDefinition;

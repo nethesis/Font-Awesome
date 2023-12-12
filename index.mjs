@@ -1,5 +1,10 @@
 var prefix = "fab";
 
+var faGravatar = {
+    prefix: "fab",
+    iconName: "gravatar",
+    icon: [24,24,[],"f590","m9.8 2.2c0 -1.2 1 -2.2 2.2 -2.2c6.6 0 12 5.4 12 12c0 6.6 -5.4 12 -12 12c-6.6 0 -12 -5.4 -12 -12c0 -3.8 1.8 -7.2 4.5 -9.4c1 -0.7 2.4 -0.6 3.1 0.4c0.8 0.9 0.6 2.3 -0.3 3.1c-1.8 1.4 -2.9 3.5 -2.9 5.9c0 4.2 3.4 7.6 7.6 7.6c4.2 0 7.6 -3.4 7.6 -7.6c0 -3.4 -2.3 -6.3 -5.4 -7.2v8c0 1.2 -1 2.2 -2.2 2.2c-1.2 0 -2.2 -1 -2.2 -2.2z"],
+};
 var faNetflix = {
     prefix: "fab",
     iconName: "netflix",
@@ -17,6 +22,7 @@ var faSquareXTwitter = {
 };
 
 var icons = {
+    faGravatar: faGravatar,
     faNetflix: faNetflix,
     faNordVpn: faNordVpn,
     faSquareXTwitter: faSquareXTwitter,
@@ -25,6 +31,7 @@ var icons = {
 export {
     icons as fab,
     prefix,
+    faGravatar,
     faNetflix,
     faNordVpn,
     faSquareXTwitter,
