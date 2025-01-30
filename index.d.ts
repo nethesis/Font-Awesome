@@ -12,6 +12,7 @@ export const faCameraSecurity: IconDefinition;
 export const faChildTask: IconDefinition;
 export const faCircleCompleting: IconDefinition;
 export const faClose: IconDefinition;
+export const faDisplaySlash: IconDefinition;
 export const faDoubleExclamation: IconDefinition;
 export const faEarListen: IconDefinition;
 export const faElaborate: IconDefinition;
