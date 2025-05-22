@@ -104,6 +104,11 @@
       iconName: "grid-round",
       icon: [24,24,[],"f590","m1.5 4.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm0 7.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm4.5 -12c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm-3 10.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm10.5 -18c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3zm-3 10.5c0 -1.7 1.3 -3 3 -3c1.7 0 3 1.3 3 3c0 1.7 -1.3 3 -3 3c-1.7 0 -3 -1.3 -3 -3zm3 4.5c-1.7 0 -3 1.3 -3 3c0 1.7 1.3 3 3 3c1.7 0 3 -1.3 3 -3c0 -1.7 -1.3 -3 -3 -3z"],
   };
+  var faHangup = {
+      prefix: "fas",
+      iconName: "hangup",
+      icon: [24,24,[],"f590","M21.2049 14.7078C20.9047 15.3082 20.1543 15.5583 19.554 15.2581L16.3523 13.9574C15.8521 13.7573 15.5019 13.207 15.5519 12.6567L15.802 10.5056C13.3507 9.65514 10.6493 9.65514 8.19797 10.5056L8.44811 12.6567C8.49813 13.207 8.14795 13.7573 7.64768 13.9574L4.44598 15.2581C3.84566 15.5583 3.09526 15.3082 2.7951 14.7078L1.2943 12.1064C0.994137 11.6062 1.09419 10.9058 1.4944 10.5056C7.29749 4.7025 16.7025 4.7025 22.5056 10.5056C22.9058 10.9058 23.0059 11.6062 22.7057 12.1064L21.2049 14.7078Z"],
+  };
   var faMissed = {
       prefix: "fas",
       iconName: "missed",
@@ -169,6 +174,7 @@
     faGridDividers: faGridDividers,
     faGridOne: faGridOne,
     faGridRound: faGridRound,
+    faHangup: faHangup,
     faMissed: faMissed,
     faOfficePhone: faOfficePhone,
     faOpen: faOpen,
@@ -201,6 +207,7 @@
   exports.faGridDividers = faGridDividers;
   exports.faGridOne = faGridOne;
   exports.faGridRound = faGridRound;
+  exports.faHangup = faHangup;
   exports.faMissed = faMissed;
   exports.faOfficePhone = faOfficePhone;
   exports.faOpen = faOpen;
