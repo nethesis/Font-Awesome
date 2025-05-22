@@ -25,6 +25,7 @@ export const faMissed: IconDefinition;
 export const faOfficePhone: IconDefinition;
 export const faOpen: IconDefinition;
 export const faParentTask: IconDefinition;
+export const faPhoneArrowDownLeft: IconDefinition;
 export const faRecord: IconDefinition;
 export const faShorten: IconDefinition;
 export const faSum: IconDefinition;
