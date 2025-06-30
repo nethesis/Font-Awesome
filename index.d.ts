@@ -5,11 +5,13 @@ export const fal: IconPack;
 
 export const faAddressBook: IconDefinition;
 export const faBlockBrickFire: IconDefinition;
+export const faBuilding: IconDefinition;
 export const faCalendarDay: IconDefinition;
 export const faChartLine: IconDefinition;
 export const faClipboardList: IconDefinition;
 export const faClockRotateLeft: IconDefinition;
 export const faCloud: IconDefinition;
+export const faCreditCard: IconDefinition;
 export const faCubes: IconDefinition;
 export const faEnvelope: IconDefinition;
 export const faGear: IconDefinition;
@@ -25,3 +27,4 @@ export const faShieldHalved: IconDefinition;
 export const faStar: IconDefinition;
 export const faUserGroup: IconDefinition;
 export const faUsers: IconDefinition;
+export const faWrench: IconDefinition;
