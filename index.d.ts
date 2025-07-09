@@ -31,3 +31,4 @@ export const faRecord: IconDefinition;
 export const faShorten: IconDefinition;
 export const faSum: IconDefinition;
 export const faTrafficCone: IconDefinition;
+export const faUnitGroups: IconDefinition;
