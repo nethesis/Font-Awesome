@@ -24,6 +24,7 @@ export const faList: IconDefinition;
 export const faMessage: IconDefinition;
 export const faNetworkWired: IconDefinition;
 export const faOfficePhone: IconDefinition;
+export const faPuzzlePiece: IconDefinition;
 export const faRoute: IconDefinition;
 export const faServer: IconDefinition;
 export const faShieldHalved: IconDefinition;
