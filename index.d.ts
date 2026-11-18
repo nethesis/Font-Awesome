@@ -32,3 +32,4 @@ export const faShorten: IconDefinition;
 export const faSum: IconDefinition;
 export const faTrafficCone: IconDefinition;
 export const faUnitGroups: IconDefinition;
+export const faSidebarLeft: IconDefinition;
